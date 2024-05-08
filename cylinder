@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+void main()
+{
+    int a,h;
+    float pi=3.14,area;
+    printf("Enter the values");
+    scanf("%d",&a,&h);
+    area=3.14*2*a*h+2*3.14*a*a;
+    printf("areaa of the cylinder %f\n",area);
+} 
