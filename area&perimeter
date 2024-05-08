@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+    int a,area,perimeter;
+    printf("Enter the values");
+    scanf("%d",&a);
+    area=a*a;
+    perimeter = 4*a;
+    printf("areaa of the square %d\n perimeter of the square %d\n",area,perimeter);
+}
