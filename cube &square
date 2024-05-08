@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+    int a ,sqare,cube;
+    printf(" enter the number ");
+    scanf("%d",&a);
+    sqare=a*a;
+    cube= a*a*a;
+    printf("sqare of number %d\n",sqare);
+    printf("cube of number %d\n",cube);
+}
